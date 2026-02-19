@@ -1,5 +1,12 @@
-
-[[HTML]] stands for __Hypertext Markup Language__. It describes content on a webpage.
+---
+title: Example Title
+draft: false
+tags:
+  - computer-science
+  - webdev
+  - html
+---
+ [[HTML]] stands for __Hypertext Markup Language__. It describes content on a webpage.
 
 `<!doctype html/>` - informs file type
 `<head></head>`- metadata

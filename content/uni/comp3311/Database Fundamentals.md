@@ -1,4 +1,11 @@
-In this lecture we spoke about why databases matter, fundamental problems, and database types.
+---
+title: Database Fundamentals
+draft: false
+tags:
+  - computer-science
+---
+ 
+The rest of your content lives here. You can use **Markdown** here :)In this lecture we spoke about why databases matter, fundamental problems, and database types.
 
 A [[database]] is a collection of related data, that typically represents some aspect of the real world.
 

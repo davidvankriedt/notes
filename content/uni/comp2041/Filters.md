@@ -1,3 +1,10 @@
+---
+title: Filters
+draft: false
+tags:
+  - computer-science
+---
+ 
 A [[filter]] is a program that transforms a byte stream.
 
 On UNIX systems they:

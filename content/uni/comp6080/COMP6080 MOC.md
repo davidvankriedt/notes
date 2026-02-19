@@ -1,4 +1,11 @@
-## Getting Help
+---
+title: COMP6080 MOC
+draft: false
+tags:
+  - computer-science
+  - webdev
+---
+
 - [Discourse](https://discourse02.cse.unsw.edu.au/26T1/COMP6080/)
 - Help Sessions
 - cs6080@cse.unsw.edu.au

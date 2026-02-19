@@ -1,13 +1,13 @@
 ---
+title: CSS Rules
+draft: false
+tags:
+  - computer-science
+  - webdev
+  - css
 aliases:
   - Cascading Style Sheets, CSS
 ---
-`---`
-
-`aliases: [Cascading Style Sheets, CSS]`
-
-`---`
-
 [[CSS Rules|Cascading Style Sheets, CSS]] is a language used to enhance [[HTML]] tags.
 
 [[CSS Rules|Cascading Style Sheets, CSS]]'s styling uses dashes (-), not camelCase or snake_case.

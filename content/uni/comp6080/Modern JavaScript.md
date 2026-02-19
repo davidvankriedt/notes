@@ -3,6 +3,7 @@ title: Modern JavaScript
 draft: false
 tags:
   - webdev
+  - computer-science
 ---
 This week I will be learning [[Modern JavaScript]] as part of my preparation for [[comp6080]]. I'm not new to [[Javascript]], having used it in [[comp1531]] for the [[backend]] project. However, that was last year, and I stuck to fundamental [[loops]], [[functions]] and [[data structures]] like [[hash maps]] and [[arrays]]. I was recommended by [[Gemini]], to look further into [[Modern JavaScript]], with the promise that it would be of great help starting [[comp6080]], so this note will serve as a reference to any concepts I discover within [[Javascript]] that are worth noting.
 
