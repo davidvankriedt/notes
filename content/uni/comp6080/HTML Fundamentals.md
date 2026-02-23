@@ -1,5 +1,5 @@
 ---
-title: Example Title
+title: HTML Fundamentals
 draft: false
 tags:
   - computer-science
