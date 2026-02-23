@@ -4,7 +4,6 @@ draft: false
 tags:
 ---
 
- 
 
 My name is David Van Kriedt.
 
