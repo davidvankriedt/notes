@@ -79,3 +79,92 @@ Ending of string denoted by $
 ---
 
 For more [[Regex]] formation visit [regex101](https://regex101.com) and [regexr](https://regexr.com).
+
+---
+
+##### grep
+
+It stands for "Globally search with Regular Expressions and Print". It copies stdout lined that match the specified regular expression.
+
+###### Useful options:
+`-E` use extended regex syntax (almost always needed to use regex syntax)
+`-i` ignore case
+`-v` only display lines that don't match the pattern
+`-c` print count of matching lines
+`-w` only match if it makes a complete word
+`-x` only match if it makes a complete line
+
+##### wc
+
+It stands for "Word Count". It summarises its input as a single line.
+
+###### Useful options:
+`-c` print char num
+`-w` print word num
+`-l` print line num
+
+By default, it prints the number of lines, words, and characters.
+
+##### tr
+
+It stands for transliterate characters. It reads & write characters, mapping some characters with others.
+
+`tr [sourceChars] [destChars]`
+
+__Example:__
+`tr 'abc' '123' < someText`
+
+In this case a-->1, b-->2, c-->3.
+
+If there isn't enough characters in destChars to map all characters from sourceChars, the last character in destChars is simply repeated for any outstanding characters.
+
+###### Useful options:
+`-d` delete all characters that are in sourceChars
+
+Since __tr__ is so old, file reading isn't supported, so it only uses stdin for input. This means when using it to read a file, we have to do it like `tr [sourceChars] [destChars] < file1.txt`
+
+##### head
+Prints the first n lines of input.
+
+##### tail
+Prints the last n lines of input.
+
+###### Options for head & tail:
+`-n` changes the number of lines they print (10 lines by default). `tail -n 30 file` would print the last 30 lines of "file".
+
+Combine them for a range of lines:
+`head -n 100 | tail -n 20` would print lines 81-100.
+
+##### cut
+
+It is a vertical slicer, it prints selected parts of input lines. It can select fields in a table, where it would separate columns by tab (default). It can also select a range of character positions.
+
+###### Useful options:
+`-f[listofCols]` print only specified fields (tab separated) on output
+`-c[listofCols]` print only characters in specified columns
+`-d[c]` use the character 'c' as the field separator
+
+Lists in this case can be specified as ranges (e.g. 1-5) or comma-separated (e.g. 2, 4, 5).
+
+##### sort
+
+It copies input to output but ensures that output is arranged in some particular order of lines.
+
+###### Useful options:
+`-r` reverse sort
+`-n` sort numerically instead of lexicographically (default)
+`-d` dictionary order
+`-tc` use character 'c' to separate columns
+`-kn` sort on column n
+
+
+##### uniq
+
+It removes all but one copy of adjacent identical lines. It is typically used after __sort__, since that filter would make all copies adjacent to each other.
+
+###### Useful options:
+`-c` print number of duplicates
+`-d` only print the duplicates (one copy)
+`-u` only print lines that occur uniquely
+
+
