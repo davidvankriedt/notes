@@ -3,10 +3,12 @@ title: COMP3331 MOC
 draft: false
 tags:
   - computer-science
+  - database
 ---
- 
-The rest of your content lives here. You can use **Markdown** here :)
+
 ## Week 1
 
 [[Database Fundamentals]]
+[[Entity-Relationship]]
 
+## Week 2

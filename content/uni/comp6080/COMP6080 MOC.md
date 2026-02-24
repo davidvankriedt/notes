@@ -14,8 +14,16 @@ tags:
 - [COMP3511 - Human Computer Interaction](https://www.handbook.unsw.edu.au/undergraduate/courses/2026/comp3511?year=2026)
 - [COMP4511 - User Interface Design & Construction](https://www.handbook.unsw.edu.au/undergraduate/courses/2026/COMP4511?year=2026)
 - [COMP6443 - Web Application Security & Testing](https://www.handbook.unsw.edu.au/undergraduate/courses/2026/comp6443?year=2026)
+
+## Week 0 (prep)
+
+[[Modern JavaScript]]
+
 ## Week 1
 
 [[HTML Fundamentals]]
 [[CSS Rules]]
 [[CSS Formatting]]
+[[CSS Layouts]]
+
+## Week 2

@@ -3,6 +3,7 @@ title: Database Fundamentals
 draft: false
 tags:
   - computer-science
+  - database
 ---
  
 The rest of your content lives here. You can use **Markdown** here :)In this lecture we spoke about why databases matter, fundamental problems, and database types.
