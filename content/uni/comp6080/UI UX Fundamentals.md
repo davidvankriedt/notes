@@ -11,6 +11,8 @@ UX --> who is the user, high-level UI logic, user process
 
 ## UI
 
+^9d7c73
+
 __Alignment__:
 - Humans tend to trust alignment.
 - We can align items in accordance to a grid - typically 12 columns (12 is a very divisible number)
