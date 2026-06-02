@@ -12,6 +12,15 @@ Introduction to modern cyber security design, practice, and regulation. Concentr
 - [Main contact page](https://www.openlearning.com/unswcourses/courses/cyber-security-engineering-2026-t2/contact_us/?cl=1) 
 - [Schedule + Recordings](https://www.openlearning.com/unswcourses/courses/cyber-security-engineering-2026-t2/schedule_recordings/?cl=1)
 
+## Lectures
+
+| Location | Time       | Type          |
+| -------- | ---------- | ------------- |
+| ~        | Mon 11-1pm | Core          |
+| ~        | Tue 2-4pm  | Engineering   |
+| ~        | Wed 2-4pm  | Extended 6841 |
+
+
 ## Week 1
 
 [Picking a COMP project](https://www.openlearning.com/unswcourses/courses/cyber-security-engineering-2026-t2/activities/comp-selecting-your-project/?cl=1)
