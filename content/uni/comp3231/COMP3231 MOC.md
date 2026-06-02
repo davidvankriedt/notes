@@ -7,7 +7,7 @@ tags:
 
 This course aims to teach basic, essential concepts and components of operating systems, relevant characteristics of hardware, and trade-offs in conflicting objectives faced by operating systems in efficiently supporting a wide range of applications.
 
-__Lecturer__: Dr Thomas Sewell
+__Lecturer__: [Dr Thomas Sewell](https://www.unsw.edu.au/staff/thomas-sewell)
 
 ## Lectures
 
