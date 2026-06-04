@@ -12,7 +12,10 @@ Introduction to modern cyber security design, practice, and regulation. Concentr
 - [Main contact page](https://www.openlearning.com/unswcourses/courses/cyber-security-engineering-2026-t2/contact_us/?cl=1) 
 - [Schedule + Recordings](https://www.openlearning.com/unswcourses/courses/cyber-security-engineering-2026-t2/schedule_recordings/?cl=1)
 
+
+[[Security Terminology]]
+
 ## Week 1
 
-[Picking a COMP project](https://www.openlearning.com/unswcourses/courses/cyber-security-engineering-2026-t2/activities/comp-selecting-your-project/?cl=1)
-
+- [Picking a COMP project](https://www.openlearning.com/unswcourses/courses/cyber-security-engineering-2026-t2/activities/comp-selecting-your-project/?cl=1)
+-  [[Security Engineering]]
