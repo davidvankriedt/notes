@@ -25,7 +25,7 @@ __Lecturer__: [Dr Thomas Sewell](https://www.unsw.edu.au/staff/thomas-sewell)
 [OS/161](http://www.os161.org/)
 
 #### Prerequisites to learn:
-- [ ] Basic computer architecture - CPUs, memory, buses, registers, machine instructions, interrupts/exceptions.
+- [ ] [[Basic computer architecture]] - CPUs, memory, buses, registers, machine instructions, interrupts/exceptions.
 - [ ] Basic algorithms & data structures - Linked lists, arrays, hashing, trees, sorting, searching
 - [ ] Reading assembly language
 - [ ] Low-level system calls (e.g. reading & writing files)
