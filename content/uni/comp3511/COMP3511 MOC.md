@@ -16,15 +16,6 @@ Aims to teach the process of use-centred design including methods and techniques
 - To provide experience in the formal evaluation of use interfaces for their usability.
 
 Lecturer email: ali.darejeh@unsw.edu.au - Consultation time 6pm-7pm Fridays - Blackboard collaborate on Moodle (for booking)
-
-## Lectures
-
-| Location   | Time      |
-| ---------- | --------- |
-| Ritchie Th | Tue 6-8pm |
-| Griff M17  | Thu 6-8px |
-
-
 ## Week 1
 
 - [[Introduction to the design]]
