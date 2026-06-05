@@ -1,3 +1,10 @@
+---
+title: OS Overview
+draft: false
+tags:
+  - computer-science
+  - os
+---
 
 ## What is an [[Operating System]]?
 1. __Abstraction__: It is an abstract machine that extends basic hardware with added functionality, providing high-level abstractions - hiding details of hardware, making application code portable.

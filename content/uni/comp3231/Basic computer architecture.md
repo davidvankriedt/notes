@@ -1,3 +1,10 @@
+---
+title: Basic computer architecture
+draft: false
+tags:
+  - computer-science
+  - os
+---
 __CPU__ - low data storage, performs operations
 __Hard drive__ - holds lots of storage, slow
 __RAM__ - holds little storage, fast
