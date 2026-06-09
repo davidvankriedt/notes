@@ -1,3 +1,8 @@
+---
+title: Design Principles
+draft: false
+tags:
+---
 
 ## Structure
 Organise UI purposefully, group related elements together, separate unrelated ones, create meaningful visual hierarchy.
