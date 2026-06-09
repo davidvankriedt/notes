@@ -26,7 +26,7 @@ __Email__: cs3231@cse.unsw.edu.au
 [OS/161](http://www.os161.org/)
 
 #### Prerequisites to learn:
-- [ ] [[Basic computer architecture]] - CPUs, memory, buses, registers, machine instructions, interrupts/exceptions.
+- [x] [[Basic computer architecture]] - CPUs, memory, buses, registers, machine instructions, interrupts/exceptions.
 - [ ] Basic algorithms & data structures - Linked lists, arrays, hashing, trees, sorting, searching
 - [ ] Reading assembly language
 - [ ] Low-level system calls (e.g. reading & writing files)

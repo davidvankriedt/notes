@@ -64,3 +64,38 @@ tags:
 
 Sometimes also called the dispatcher.
 Has to choose a _Ready_ process to run, through a Ready Queue.
+
+
+### Thread Usage
+
+| Model                              | Characteristics                                                    |
+| ---------------------------------- | ------------------------------------------------------------------ |
+| Single-threaded server             | No parallelism, blocking system calls                              |
+| Threaded server                    | Parallelism, blocking system calls                                 |
+| State machine (event based server) | Parallel tasks, nonblocking system calls, interrupts/notifications |
+
+### Thread Model
+- Local variables are per thread
+	- allocated on the stack
+- Global variables are shared between all threads
+	- allocated in data section
+	- concurrency control is an issue
+- dynamically allocated memory (malloc) can be global or local
+	- program defined (the pointer can be global or local)
+
+### Why threads?
+- simpler to program than a state machine
+- less resources are associated with them than multiple complete processes
+	- cheaper to create and destroy
+	- shares resources (especially memory) between them
+	- simpler to co-ordinate (shared memory)
+- Performance: Threads waiting for I/O can be overlapped with computing threads
+	- Note if all threads are _compute bound_, then there is no performance improvement (on a uniprocessor)
+- Threads can take advantage of the parallelism available on machines with more than one CPU (multiprocessor)
+
+### Processes and threads summary
+- OS provides process and thread mechanisms.
+- The CPU is shared between processes and threads by repeated rapid thread-switching.
+- Multiple tasks allow the CPU to stay busy when some tasks are waiting for an external event.
+- Multi-threaded servers can manage multiple tasks within the one problem
+	- an event-based server design can also manage multiple tasks on the one thread.

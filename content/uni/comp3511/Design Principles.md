@@ -18,10 +18,21 @@ options create confusion.
 System responds to input with a clear signal confirming action was received/processed.
 
 ## Constraints
-Restricting available actions at any moment o reduce errors --> guide users toward correct behaviour. e.g. username can only contain certain characters.
+Restricting available actions at any moment to reduce errors --> guide users toward correct behaviour. e.g. username can only contain certain characters.
 
 ## Mapping
 Spatial relationship between the controls and the outcome.
 
 ## Consistency
 Similar elements should look and behave the same way throughout system. Inconsistency breaks trust and causes errors. __Users build expectations__.
+
+
+------------------------------------------------------------------------
+
+## Usability goals
+- Effective to use (effectiveness)
+- Efficient to use (efficiency)
+- Have good utility (utility)
+- Safe to use (safety)
+- Easy to learn (learnability)
+- Easy to remember how to use (memorability)
