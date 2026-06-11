@@ -4,6 +4,9 @@ draft: false
 tags:
   - computer-science
   - webdev
+  - design
+  - ui
+  - ux
 ---
 # User Interface Design
 

@@ -1,3 +1,10 @@
+---
+title: Security Engineering
+draft: false
+tags:
+  - computer-science
+  - cybersec
+---
 A __security engineer__ solves risks in digital and physical systems. It's about designing systems that remain safe when humans, data, software, and AI are under attack. 
 
 #### Why?

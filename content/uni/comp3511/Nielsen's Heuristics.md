@@ -2,6 +2,10 @@
 title: Nielsen's Heuristics
 draft: false
 tags:
+  - design
+  - ui
+  - ux
+  - computer-science
 ---
 ## Visibility of system status
 Keep users informed about what is happening, through appropriate feedback within a reasonable time.

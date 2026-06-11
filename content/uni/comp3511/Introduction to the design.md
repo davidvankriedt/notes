@@ -1,3 +1,12 @@
+---
+title: thought
+draft: false
+tags:
+  - design
+  - computer-science
+  - ui
+  - ux
+---
 
 
 __HCI__ (Human Computer Interaction) - The design, implementation and evaluation of interactive systems that considers the users at every stage of the process.

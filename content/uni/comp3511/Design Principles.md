@@ -2,6 +2,9 @@
 title: Design Principles
 draft: false
 tags:
+  - design
+  - computer-science
+  - ui
 ---
 
 ## Structure

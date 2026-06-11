@@ -1,3 +1,10 @@
+---
+title: SQL Injection
+draft: false
+tags:
+  - computer-science
+  - cybersec
+---
 ### Data vs Control
 
 Data and Control have a close relationship, and are normally mixed together.

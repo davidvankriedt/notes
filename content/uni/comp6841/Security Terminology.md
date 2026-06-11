@@ -1,3 +1,10 @@
+---
+title: Security Terminology
+draft: false
+tags:
+  - computer-science
+  - cybersec
+---
 
 __Bugs__ - mistakes which programmers usually make.
 __Vulnerabilities__ - Bugs which cause security incidents.
