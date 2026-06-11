@@ -99,3 +99,14 @@ Has to choose a _Ready_ process to run, through a Ready Queue.
 - Multiple tasks allow the CPU to stay busy when some tasks are waiting for an external event.
 - Multi-threaded servers can manage multiple tasks within the one problem
 	- an event-based server design can also manage multiple tasks on the one thread.
+
+### Concurrency issues
+Since threads share global variables, 2 threads accessing the same global variables at the same time will result in a race condition. This can still happen in different processes, because even though processes don't share global variables, a process' stack is mirrored in the kernel, and so if 2 processes interact with the kernel and do the same thing, there is a race condition there as well.
+
+### [[Critical Region]]
+Critical regions are regions of code that:
+1. Access a shared resource
+2. Correctness relies on the shared resource not being concurrently modified by another thread/process/entity.
+
+- We can control access to the shared resource by controlling access to the code that accesses the resource.
+- Uncoordinated entry to the critical region results in a race condition ---> incorrect behaviour, deadlock, lost work, etc.
