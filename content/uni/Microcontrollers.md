@@ -1,3 +1,9 @@
+---
+title: Microcontrollers
+draft: false
+tags:
+  - computer-science
+---
 # References
 [What is an MCU?](https://www.youtube.com/watch?v=ReAk8utfN7I)
 [Every Dev Board Explained](https://www.youtube.com/watch?v=KzKw_483pbI)
