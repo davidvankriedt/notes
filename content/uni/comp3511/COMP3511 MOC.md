@@ -18,7 +18,13 @@ Aims to teach the process of use-centred design including methods and techniques
 - To give an understanding of how to design & develop paper-based and electronic-based prototypes of UIs.
 - To provide experience in the formal evaluation of use interfaces for their usability.
 
-Lecturer email: ali.darejeh@unsw.edu.au - Consultation time 6pm-7pm Fridays - Blackboard collaborate on Moodle (for booking)
+Lecturer email: ali.darejeh@unsw.edu.au - Consultation time 6pm-7pm Fridays - Blackboard collaborate on Moodle (for booking).
+
 ## Week 1
 
 - [[Introduction to the design]]
+
+## Week 2
+
+- [[Design Principles]]
+- [[Nielsen's Heuristics]]

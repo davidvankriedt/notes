@@ -19,3 +19,9 @@ Introduction to modern cyber security design, practice, and regulation. Concentr
 
 - [Picking a COMP project](https://www.openlearning.com/unswcourses/courses/cyber-security-engineering-2026-t2/activities/comp-selecting-your-project/?cl=1)
 -  [[Security Engineering]]
+- [[SQL Injection]]
+
+## Week 2
+
+- [[Risk & Trust]]
+- [[XSS]]

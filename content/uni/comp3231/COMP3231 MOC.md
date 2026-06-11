@@ -20,11 +20,6 @@ __Email__: cs3231@cse.unsw.edu.au
 | MathewsThA | Mon 4-6pm  |
 | Burrows Th | Wed 11-1pm |
 
-
-## Week 1
-
-[OS/161](http://www.os161.org/)
-
 #### Prerequisites to learn:
 - [x] [[Basic computer architecture]] - CPUs, memory, buses, registers, machine instructions, interrupts/exceptions.
 - [ ] Basic algorithms & data structures - Linked lists, arrays, hashing, trees, sorting, searching
@@ -32,4 +27,15 @@ __Email__: cs3231@cse.unsw.edu.au
 - [ ] Low-level system calls (e.g. reading & writing files)
 - [ ] C programming - pointers, pointer arithmetic, function pointers, memory allocation (malloc())
 - [ ] Debugging (especially GDB)
-- [ ] Basic Git
+- [x] Basic Git
+
+## Week 1
+
+- [OS/161](http://www.os161.org/)
+- [[OS Overview]]
+- [[Basic computer architecture]]
+
+## Week 2
+
+- [[Processes and Threads]]
+- [[Concurrency and Synchronisation]]
