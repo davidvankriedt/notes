@@ -110,3 +110,18 @@ Critical regions are regions of code that:
 
 - We can control access to the shared resource by controlling access to the code that accesses the resource.
 - Uncoordinated entry to the critical region results in a race condition ---> incorrect behaviour, deadlock, lost work, etc.
+
+##### Critical Region Solutions
+Conditions required of any solution to the critical region problem:
+1. Mutual Exclustion
+2. Progress (no process running outside its critical region may block another process)
+3. Non-starvation
+4. Generality
+
+##### Solutions: 
+- Disabling interrupts (disable interrupts before entering critical region, after leaving it enable interrupts) - it's simple, but only available in the kernel, delays everybody else, doesn't work on multi-core processor
+- Hardware support (test memory cell X and set memory cell X, hardware guarantees instruction executes atomically, read-lock and set-lock happen in one instruction) - simples, available at user-level to any number of processors and to implement any number of lock variables, but busy waits (spin lock) which consumes CPU and starvation might be possible when a process leaves its critical section and more than one process is waiting.
+- Sleep/Wakeup:
+	- if a user-level thread cannot take the lock, instead of spinning, it can make a "sleep" system call to wait without wasting CPU.
+	- when a thread releases the lock, it may need to call the "wakeup" system call to unblock other processes.
+	- accidentally calling "wakeup" when other threads are not sleeping has no effect.
