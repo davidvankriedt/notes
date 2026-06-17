@@ -25,3 +25,7 @@ Introduction to modern cyber security design, practice, and regulation. Concentr
 
 - [[Risk & Trust]]
 - [[XSS]]
+
+## Week 3
+
+- [[Measuring & Humans]]
