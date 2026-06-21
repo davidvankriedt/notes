@@ -41,3 +41,8 @@ Original name came from being able to invoke a script from another website, acro
 
 #### DOM
 - Looks kinda like reflected XSS but you're writing to the [[DOM]] of the web page rather than returning the payload in the response - for more, COMP6843.
+
+## More to look at:
+CORS
+burp suite
+owasp

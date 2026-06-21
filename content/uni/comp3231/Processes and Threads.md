@@ -100,3 +100,5 @@ Has to choose a _Ready_ process to run, through a Ready Queue.
 - Multi-threaded servers can manage multiple tasks within the one problem
 	- an event-based server design can also manage multiple tasks on the one thread.
 
+## Implementation
+
