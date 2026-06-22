@@ -3,6 +3,7 @@ title: Filters
 draft: false
 tags:
   - computer-science
+  - shell
 ---
  
 A [[filter]] is a program that transforms a byte stream.

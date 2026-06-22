@@ -37,3 +37,28 @@ Why the delay features?
 	![[images.jpg|661]]
 
 However, microprocessors/microcontrollers (low energy, affordable) execute instructions in order.
+
+
+## Coprocessor 0
+- the processor control registers are located in CP0
+	- exception/interrupts management registers
+	- translation management registers
+- CP0 is manipulated using mtc0 (move to) and mfc0 (move from) instructions
+	- mtc0/mfc0 are only accessible in kernel mode.
+- exception management
+	- c0_cause - cause of the recent exception
+	- c0_status - current status of the CPU
+	- c0_epc - address of the instruction that caused the exception
+	- c0_badvaddr - address accessed that caused the exception
+- Miscellaneous
+	- co_prid - processor identifier
+- memory management
+	- c0_index
+	- c0_random
+	- c0_entryhi
+	- c0_entrylo
+	- c0_context
+
+![[Screenshot 2026-06-22 at 14.43.43.png]]![[Screenshot 2026-06-22 at 14.44.00.png]]![[Screenshot 2026-06-22 at 14.45.37.png]]![[Screenshot 2026-06-22 at 14.46.34.png]]![[Screenshot 2026-06-22 at 14.47.29.png]]
+
+In MIPS, the general exception memory address is 0x80000080
