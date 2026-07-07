@@ -176,3 +176,64 @@ simple example:
 - Locks
 - Semaphores
 - Condition Variables
+
+## Resources & Deadlocks
+
+A set of processes is deadlocked if each process in the set is waiting for an event that only another process in the set can cause.
+
+Suppose a process holds resource A and requests resource B. At the same time another process holds B and requests A. Both are now blocked and remain so - _Deadlocked_.
+
+Deadlocks occur when process are granted exclusive access to devices, locks, tables, etc - we refer to these entities generally as resources.
+
+Examples of computer resources:
+- printers
+- tape drivers
+- tables in a database
+- any value shared in a critical section
+Processes need access to resources in some order.
+
+Preemptable resources - can be taken away from a process with no ill effects.
+Nonpreemtable resources - will cause the process to fail if taken away.
+
+To use a resource:
+1. Request the resource
+2. Use the resource
+3. Release the resource
+
+Must wait at 2 if request is denied. Thus, requesting process may be blocked, or the operation may fail with an error code.
+
+### Four Conditions for Deadlock
+
+1. Mutual exclusion condition - resources cannot be shared between processes.
+2. Hold while waiting condition - a process can hold one resource while requesting another.
+3. Non-preemptable resource condition - held resources remain held, and cannot be taken away.
+4. Circular wait condition - it must be possible to form a cycle of 2+ waiting processes and each process is waiting for a resource held by the next.
+
+### Strategies for dealing with Deadlocks:
+1. Ignore the problem altogether.
+	- This is reasonable if deadlocks occur very rarely, and the cost of prevention is high.
+	- UNIX and Windows arguably take this approach for more complex resource relationships
+	- Trade-off between convenience and correctness.
+
+2. Prevent deadlocks - negate one of the four necessary conditions.
+	- Can't attack mutual exclusion condition
+	- Process must obtain all resources before starting - doesn't need to hold while waiting (not always possible)
+		- variation: the process gives up all resources if it would block holding a resource and re-request all that are immediately needed (prone to livelock).
+	- Can't attack non-preemptable resource condition
+	- We could attack the circular wait condition
+		- resources are taken in order - this is common practice
+3. Detect and recover from deadlocks.
+4. Dynamic avoidance of deadlocks - careful checks on resource allocation.
+
+
+### Livelock
+
+Livelocked processes are not blocked, they change state regularly, but they never make progress.
+
+E.g. two people passing each other in a corridor that attempt to step out of each other's way in the same direction, indefinitely.
+
+## Starvation
+
+Starvation of a process is when it never receives the resource it is waiting for, despite the resource (repeatedly) becoming free.
+
+Solution: First come, first serve policy
