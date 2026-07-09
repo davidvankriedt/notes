@@ -20,3 +20,5 @@ There is a paradox in probability called the birthday paradox, which basically s
 ## [Chosen-plaintext attack](https://en.wikipedia.org/wiki/Chosen-plaintext_attack)
 
 This attack involves using the public encryption key to learn from how the encryption system encrypts plain text. Then, by continuously inputting plain text, we can use mathematics to watch patterns arise (studied in cryptanalysis) and the attacker can reverse engineer the password. It’s basically guessing inputs, and making educated guesses, until figuring out the encryption pattern. This is used for breaking encryption like AES rather than hashing, because since hashing is a one-way function, it doesn’t use a key that can be recovered through such an attack.
+
+Useful tools: hashcat, openssl
