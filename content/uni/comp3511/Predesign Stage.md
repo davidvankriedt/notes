@@ -213,7 +213,13 @@ Compares categories using bars. It's used for questionnaire results, and prefere
 Compares groups and subgroups. Used for likert-scale breakdown.![[Screenshot 2026-07-11 at 16.42.34.png]]
 
 ## Personas
-Personas are fictional characters that represent different user types. This requires research. Personas help to recognise different needs of different groups of users.![[Screenshot 2026-07-11 at 16.43.41.png]]
+Personas are fictional characters that represent different user types. This requires research. Personas help to recognise different needs of different groups of users.
+
+The number of personas needed depends on the different types of stakeholders who will use the product.
+
+Personas create empathy to guide design, but disappear when not believable.
+
+![[Screenshot 2026-07-11 at 16.43.41.png]]
 
 #### Persona Information
 - Demographic
@@ -223,3 +229,51 @@ Personas are fictional characters that represent different user types. This requ
 - Describe their goals, what they are aiming to achieve
 - Describe their feelings
 - Online activity
+
+## Scenarios
+
+### Context Scenarios
+
+Context scenarios define the core problem and user needed. They are stories which designers create to show how users might act to achieve a goal in a system or an environment. Based on the findings of the interviews, you can start to write context scenarios (narrative).
+
+### Create a context scenario
+
+Personas are the main characters in the scenario. You create the story around these.
+
+- a day in the life of a user
+- explains goals and needs
+-  not technology specific
+	- don't talk about actions or using a specific technology
+	- no system behaviour
+- high level description of the tasks that they are currently performing
+- they need to engage the imagination and help people see the possibilities, not bog them down in detail
+
+__Example: Teenager with deaf and blindness__
+
+Suzan uses the web to find new restaurants to go to with friends and classmates. She has low vision and is deaf. She uses a screen magnifier to enlarge the text on websites to a font size that she can read. When screen magnification is not sufficient, she also uses a screen reader to drive a refreshable braille display, which she reads slowly. At home, Suzan browses local websites for new and different restaurants. Within her web browser, she uses a personal style sheet, which makes all web pages display according to her preferences. Her preferences include having background patterns turned off so that there is enough contrast for her when she uses screen magnification. This is especially helpful when she reads online sample menus of appealing restaurants. A multimedia virtual tour of local entertainment options was recently added to the website of the city in which Suzan lives. The tour is completely captioned and described, which allows her to access it using a combination of screen magnification and braille. 
+
+She also checks the public transportation sites to find subway or bus stops near the restaurants. The subway schedule is easy to use because the fames on that website are clearly labeled, and the schedules, which are laid out as long tables, have clearly identified row and column headers that she uses to orient herself even when she has magnified the screen display. The website for the bus schedule has unlabelled frames and tables without clear column or row headers, and she often gets lost on the site when trying to find the information she needs. 
+
+Suzan also uses a mobile phone to access the web when she is not at home. The phone displays buttons or braille characters on the screen, and uses the vibration function to signal them when she scans over the touch-screen with her fingertips. She uses the GPS on her phone to better orient herself, to find out about what is nearby, or for recording reviews about restaurants in her favourite city guide. 
+
+She has also used her portable braille device, with an infrared connection, to get additional information and directions at a web-based public information kiosk in a shopping mall downtown; and a few times she has downloaded sample menus into her braille device so that she has them in an accessible format once she was in a restaurant.
+
+### Why use context scenarios?
+
+- They provide a snapshot of the critical points of user interaction. 
+- Keep context in which the tasks are carried out
+	- by including other elements like phone calls, forms, interruptions
+- Helps see the user's perspective
+- Provides a means to envisage workflow
+### Context scenarios vs Use case scenarios
+
+__Context__: who, what, when, why, where from the user's perspective... concrete narratives focusing on specific activity.
+
+__Use case__: The interaction between the user and the system as a sequence of actions performed to achieve a goal.
+
+Use case scenario example:
+![[Screenshot 2026-07-11 at 17.16.36.png]]
+
+### Task Scenarios
+
+A task scenario is the action that you ask the participant to take on the tested interface. It is used in the usability test process.
