@@ -29,3 +29,10 @@ Introduction to modern cyber security design, practice, and regulation. Concentr
 ## Week 3
 
 - [[Measuring & Humans]]
+
+## Week 4
+
+## Week 5
+
+- [[Password Hash Cracking]]
+- [[Format Strings]]
