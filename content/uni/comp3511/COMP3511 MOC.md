@@ -20,6 +20,8 @@ Aims to teach the process of use-centred design including methods and techniques
 
 Lecturer email: ali.darejeh@unsw.edu.au - Consultation time 6pm-7pm Fridays - Blackboard collaborate on Moodle (for booking).
 
+[[User-Centered Design Process]]
+![[Screenshot 2026-07-11 at 11.42.54.png]]
 ## Week 1
 
 - [[Introduction to the design]]
@@ -28,3 +30,13 @@ Lecturer email: ali.darejeh@unsw.edu.au - Consultation time 6pm-7pm Fridays - Bl
 
 - [[Design Principles]]
 - [[Nielsen's Heuristics]]
+
+## Week 3
+
+- [[Cross-Screen & Adaptive Design]]
+- [[Stakeholders]]
+- [[Data Collection & Analysis, Visualisation, Persona, Scenario]]
+
+## Week 4
+
+## Week 5
