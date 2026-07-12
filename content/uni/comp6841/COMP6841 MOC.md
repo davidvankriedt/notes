@@ -36,3 +36,4 @@ Introduction to modern cyber security design, practice, and regulation. Concentr
 
 - [[Password Hash Cracking]]
 - [[Format Strings]]
+- [[Week 5 Portfolio]]
