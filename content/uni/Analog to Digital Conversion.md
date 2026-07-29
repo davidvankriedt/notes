@@ -31,4 +31,4 @@ $$
 $x(n)$ is the discrete time signal with sampling interval of $1s$.![[Screenshot 2026-07-02 at 16.39.05.png]]
 
 ## Quantisation
-Quantisation is the process of converting the amplitude of discrete signal into a digital signal by expressing each sample value as a finite number of digits - basically rounding the stems to a set amplitude, the accuracy of the signal representation is directly proportional to how many discrete levels are allows to represent the magnitude of the signal.
+Quantisation is the process of converting the amplitude of discrete signal into a digital signal by expressing each sample value as a finite number of digits - basically rounding the stems to a set amplitude, the accuracy of the signal representation is directly proportional to how many discrete levels are allowed to represent the magnitude of the signal.
